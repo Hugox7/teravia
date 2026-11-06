@@ -1,0 +1,12 @@
+{
+  "name": "teravia",
+  "private": true,
+  "packageManager": "pnpm@10.18.3",
+  "scripts": {
+    "dev:website": "pnpm --filter @teravia/website dev",
+    "dev:app": "pnpm --filter @teravia/app dev",
+    "dev:backoffice": "pnpm --filter @teravia/backoffice dev",
+    "build": "pnpm -r --filter './apps/*' build",
+    "typecheck": "pnpm -r --filter './apps/*' typecheck"
+  }
+}
