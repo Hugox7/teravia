@@ -1,12 +1,13 @@
-import { PageShell } from "@teravia/ui";
-
 export default function Home() {
   return (
-    <PageShell title="Back-office" description="Administration des collectivités, utilisateurs et droits.">
-      <div className="panel">
-        <span className="status">Socle initial prêt</span>
-        <p>Cette application est indépendante et partage le composant PageShell avec les autres.</p>
-      </div>
-    </PageShell>
+    <main className="min-h-screen bg-slate-950 p-12 text-white">
+      <h1 className="text-4xl font-bold">Teravia Back-office</h1>
+
+      <p className="mt-4 text-slate-400">Tailwind CSS fonctionne !</p>
+
+      <button className="mt-8 rounded-lg bg-emerald-600 px-5 py-3 font-medium hover:bg-emerald-500">
+        Premier bouton
+      </button>
+    </main>
   );
 }

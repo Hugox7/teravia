@@ -9,16 +9,19 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@teravia/ui": "workspace:*",
     "next": "^15.5.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "@teravia/ui": "workspace:*"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
+    "@tailwindcss/postcss": "^4.3.4",
+    "@teravia/tsconfig": "workspace:*",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "@teravia/tsconfig": "workspace:*"
+    "postcss": "^8.5.32",
+    "tailwindcss": "^4.3.4",
+    "typescript": "^5.0.0"
   }
 }
